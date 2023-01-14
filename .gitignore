@@ -1,9 +1,0 @@
-# general stuff
-__pycache__/
-
-# convert pixel art to svg
-# only keep the gitignore files from the two directorys
-convert pixel art to svg/images_to_convert/*
-!convert pixel art to svg/images_to_convert/.gitkeep
-convert pixel art to svg/svgs/*
-!convert pixel art to svg/svgs/.gitkeep
