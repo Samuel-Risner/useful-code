@@ -72,8 +72,8 @@ class Window():
         w = self.screen.get_width()
         h = self.screen.get_height()
 
-        h_new = w * settings.window.RELATIVE_WIDTH
-        w_new = h * settings.window.RELATIVE_HEIGHT
+        h_new = int(w * settings.window.RELATIVE_WIDTH)
+        w_new = int(h * settings.window.RELATIVE_HEIGHT)
 
         if w_new > w:
             self.canvas_scale[0] = w

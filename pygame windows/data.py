@@ -8,10 +8,10 @@ class Data():
     MONITOR_SIZE    :tuple[int, int]
     CANVAS          :pygame.Surface
 
-    canvas_scale    :list[int, int]
-    canvas_pos      :list[int, int]
+    canvas_scale    :list[int]
+    canvas_pos      :list[int]
 
-    screen          :pygame.Surface
+    screen          :pygame.surface.Surface
 
     fullscreen      :bool
     window_width    :int
