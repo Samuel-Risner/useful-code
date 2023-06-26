@@ -1,0 +1,19 @@
+{
+  "name": "convert-pixel-art-to-svg",
+  "version": "1.0.0",
+  "description": "Turns images into svgs. This is done pixel by pixel and is then compressed with svgo (https://github.com/svg/svgo).",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samuel-Risner/usefull-code.git"
+  },
+  "author": "Samuel Risner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Samuel-Risner/usefull-code/issues"
+  },
+  "homepage": "https://github.com/Samuel-Risner/usefull-code#readme",
+  "dependencies": {
+    "svgo": "^3.0.2"
+  }
+}
