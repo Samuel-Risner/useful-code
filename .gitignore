@@ -6,5 +6,6 @@ convert pixel art to svg/svgs/*
 !convert pixel art to svg/svgs/.gitkeep
 
 __pycache__/
-
 .vscode/
+node_modules/
+.idea/
