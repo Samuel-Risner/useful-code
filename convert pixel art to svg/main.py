@@ -10,7 +10,6 @@ PATH = ""
 
 def convert(file_name: str):
     img = Image.open(os.path.join(PATH, "images_to_convert", file_name))
-    better_filename = file_name.split(".")[0]
 
     pixels = img.load()
 
